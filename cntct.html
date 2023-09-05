@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Docor</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <div class="top">
+        <div class="logo">
+            <img src="logo1.jpg"> 
+        </div>
+    <div class="nav">
+        <a href="home.html" class="active">Home</a>
+        <a href="abt.html">About</a>
+        <a href="prfl.html">Profile</a>
+        <a href="cntct.html">Contact</a>
+        <a href="loc.html">Location</a>
+    </div>
+    <div class="container">
+    <form action="https://www.google.com/search" method="get"  class="search-form">
+        <input type="text" placeholder="search anything">
+        <button type="submit"><img src="search.png"></button>
+    </form>
+    </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<hr>
+
+<section class="middil">
+    
+    <div class="one">
+        <h3>Contact Us</h3>
+        <h3>If you’d like more information about our services, <br> please 
+            contact us by phone number and email.</h3>
+          
+    </div>
+    <br>
+  
+</section>
+ <h3>Order Now </h3>
+<section class="at">
+<form name="form" onsubmit="return validate();">
+<div class="second">
+    <div>
+    <label class="two"  for="name">Name
+        <span class="second">*</span>
+    </label>
+</div>
+    <label for="name">First name:</label>
+    <input type="text" id="name" name="name" placeholder=" enter your name" required>
+    <label for="last name"> Last name:</label>
+    <input type="text" id="name" name="name" placeholder="enter your last name" required>
+</div>
+<br>
+<div class="third">
+       <label for="email">Email<span >*</span></label>
+       <input type="email" name="email" id="email" placeholder="spants@gmail.come" required>
+   </div>
+<br>     
+<div class="third" >
+    <label for="tellphone">Phone<span>*</span></label>
+    <input type="number" id="tellphone" name="tellphone" maxlength="12"   placeholder="tellphone" required>
+</div>
+<br>
+<div>        
+    <label for="date">Date / Time </label>
+    <br>
+    <input type="date"  required>
+    <input type="time"  required>
+</div>
+<br>
+<div class="third">
+      <h1>Choose service </h1>
+                <label for="Wedding">Wedding Decoration</label>
+                <input type="radio" id="Wedding" name="title" required value="Wedding">
+                <label for="Anniversary">Anniversary Decoration</label>
+                <input type="radio" id="Anniversary" name="title" value="Anniversary" required>
+                <label for="Birthday">Birthday Decoration</label>
+                <input type="radio" id="Birthday" name="title" value="Birthday" required>
+            <br>
+            <label for="Graduation">Graduation Decoration</label>
+                <input type="radio" id="Graduation" name="title" required value="Graduation">
+                <label for="Bridal Shower">Brid To Be Decor</label>
+                <input type="radio" id="Bridal Shower" name="title" value="Bridal Shower" required>
+                <label for="Home">Baby Shower Decor</label>
+                <input type="radio" id="Home" name="title" value="Home" required>
+</div> 
+<br>
+<div class="third">
+    <h1>Choice package</h1>
+    <label for="package">Package:</label>
+    <select name="package" id="package" required>
+        <option value=""></option>
+        <option value="Package A">Package A</option>
+        <option value="Package B">Package B</option>
+    </select>
+</div> 
+<br>
+<br>
+<div class="third">
+    <label for="address">Address<span>*</span></label>
+    <br>
+    <br>
+    <label for="city">City:</label>
+    <select name="city" id="city" required>
+        <option value=""></option>
+        <option value="Addis Abeba">Addis Abeba</option>
+        <option value="Woliata Soddo">Woliata Soddo</option>
+        <option value="Hawasa">Hawasa</option>
+        <option value="Adama">Adama</option>
+        <option value="Bahirdar">Bahirdar</option>
+        <option value="Gonder">Gonder</option>
+        <option value="Hossana">Hossana</option>
+        <option value="Ariba Minch">Ariba Minch</option>
+        <option value="Debre Brihan">Debre Brihan</option>
+        <option value="Wolkite">Wolkite</option>
+      </select>
+</div>
+<br>  
+<div class="submit">
+    <lebel></lebel>
+    <button input type="reset" title="Done" onclick="alert('Rest Done');">RESET</button>
+</div>
+<div  class="submit">
+        <a target="_blank"> 
+            <lebel></lebel>
+            <button input type="submit"  title="Thank You!!" 
+            onclick="alert('Thank You');">SEND</button>
+        </a><br>
+</div>
+<br>
+</form>
+</section>
+<hr>
+<section class="footer">
+    <div class="box">
+        <div class="two">
+        <h1>Quick Links</h1>
+        <a href="home.html">Home</a>
+        <br>
+        <br>
+        <a href="abt.html">About</a>
+        <br>
+        <br>
+        <a href="prfl.html">Profile</a>
+        <br>
+        <br>
+        <a href="cntct.html">Contact</a>
+        <br>
+        <br>
+        <a href="loc.html">Location</a>
+    </div>
+    <div class="two">
+        <h1>Contacts</h1>
+        <a href="#">selamdache0983@gmail.com</a>
+        <br>
+        <br>
+        <a href="#">+251983654234</a>
+        <br>
+        <br>
+        <a href="#">+251966831440</a>
+        <br>
+        <br>
+        <a href="#">Addis Abeba Ethiopia</a>
+    </div>
+</div>
+</section>
+<br>
+    <br>
+    <br>
+<div class="socialMedia">
+    <div class="icon instagram">
+    <a href="#">
+        <div class="social">Instagram</div>
+        <span> <i class="fa-brands fa-instagram"></i></span>
+    </a>
+    </div>
+    <br>
+    <div class="icon facebook">
+    <a href="#">
+        <div class="social">Facebook</div>
+        <span> <i class="fa-brands fa-facebook-f"></i></span>      
+    </a>
+    </div>
+    <br>
+    <div class="icon tiwter">
+    <a href="#">
+        <div class="social">Tiwter</div>
+        <span> <i class="fa-brands fa-twitter"></i></span>
+    </a>
+</div>
+    <br>
+    <div class="icon whatsapp">
+    <a href="#">  
+        <div class="social">Whatsapp</div>
+        <span> <i class="fa-brands fa-whatsapp"></i></span>
+</a>
+</div>
+<br>
+<div class="icon youtube">
+<a href="#">  
+    <div class="social">Youtube</div>
+    <span> <i class="fa-brands fa-youtube"></i></span>
+</a>
+</div>
+<br>
+<div class="icon github">
+<a href="#">  
+<div class="social">Github</div>
+ <span> <i class="fa-brands fa-github"></i></span>
+</a>
+</div></div>
+<br>
+   <hr>
+    <p class="final">
+        © 2023 <span>Seli</span> Decoration
+        .All right reserved.
+    </p>
+<script src="java.js"></script>  
+</body>
+</html>
